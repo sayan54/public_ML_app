@@ -43,7 +43,7 @@ def main():
     
     
     step = st.number_input('Enter steps(unit of time where 1 step = 1 hour)',step=1.,format="%.2f")
-    type = st.number_input('Transaction Type (CASH-IN=0 ,CASH-OUT=1 ,DEBIT=2 ,PAYMENT=3 ,TRANSFER=4)',step=1.,format="%.2f")
+    type = st.number_input('Transaction Type  (CASH-IN = 0, CASH-OUT = 1, DEBIT = 2, PAYMENT = 3, TRANSFER = 4)',step=1.,format="%.2f")
     amount = st.number_input('Amount of the transaction',step=1.,format="%.2f")
     oldbalanceOrg = st.number_input('Balance before the transaction',step=1.,format="%.2f")
     newbalanceOrig = st.number_input('Balance after the transaction',step=1.,format="%.2f")

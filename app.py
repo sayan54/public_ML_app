@@ -44,11 +44,11 @@ def main():
     
     step = st.number_input('Number of step',step=1.,format="%.2f")
     type = st.number_input('Transaction Type',step=1.,format="%.2f")
-    amount = st.number_input('Enter Amount',step=1.,format="%.2f")
-    oldbalanceOrg = st.number_input('Enter oldbalanceOrg',step=1.,format="%.2f")
-    newbalanceOrig = st.number_input('Enter newbalanceOrig',step=1.,format="%.2f")
-    oldbalanceDest	= st.number_input('oldbalanceDest value',step=1.,format="%.2f")
-    newbalanceDest = st.number_input('newbalanceDest value',step=1.,format="%.2f")
+    amount = st.number_input('Amount of the transaction',step=1.,format="%.2f")
+    oldbalanceOrg = st.number_input('Balance before the transaction',step=1.,format="%.2f")
+    newbalanceOrig = st.number_input('Balance after the transaction',step=1.,format="%.2f")
+    oldbalanceDest	= st.number_input('Initial balance of recipient before the transaction',step=1.,format="%.2f")
+    newbalanceDest = st.number_input('New balance of recipient after the transaction',step=1.,format="%.2f")
     
     
     

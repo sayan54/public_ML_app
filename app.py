@@ -42,7 +42,7 @@ def main():
     # getting the input data from the user
     
     
-    step = st.number_input('Number of step',step=1.,format="%.2f")
+    step = st.number_input('Enter steps(unit of time where 1 step = 1 hour)',step=1.,format="%.2f")
     type = st.number_input('Transaction Type',step=1.,format="%.2f")
     amount = st.number_input('Amount of the transaction',step=1.,format="%.2f")
     oldbalanceOrg = st.number_input('Balance before the transaction',step=1.,format="%.2f")
